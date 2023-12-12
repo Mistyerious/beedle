@@ -10,7 +10,7 @@ pub struct DiscordUser {
     pub discriminator: String,
     pub global_name: String,
     pub avatar: String,
-    pub email: String
+    pub email: Option<String>
 }
 
 
